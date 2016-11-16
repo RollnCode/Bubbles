@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="@dimen/key_line_1_d2">
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/information_format"
+        android:textColor="@color/bubble"
+        android:textSize="@dimen/text_big"/>
+
+    <com.rollncode.bubbles.game.view.RatingView
+        android:id="@+id/rv_health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:rv_num_stars="3"
+        app:rv_star_spacing="@dimen/spacing"/>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="play">Играть</string>
+    <string name="continue_game">Продолжить</string>
+    <string name="new_game">Новая</string>
+    <string name="leaderboards">Рекорды</string>
+
+    <string name="information_format">Точность: %1$d%%\nПоймано: %2$d</string>
+    <string name="your_score_d">Ваш счёт: %d</string>
+    <string name="cant_connect">Проблема с подключением.</string>
+    <string name="hint_formula">Очки = Тчн. × Пмн. × Ур.</string>
+
+    <string name="content_logo">Логотип</string>
+    <string name="content_bubbles">Пузырьки</string>
+    <string name="exit">Выход</string>
+    <string name="replay">Переиграть</string>
+</resources>

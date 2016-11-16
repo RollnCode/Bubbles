@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="bubbles">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+
+    <!-- Values in dp -->
+    <integer-array name="min_radius">
+        <item>40</item>
+        <item>35</item>
+        <item>30</item>
+        <item>30</item>
+    </integer-array>
+
+    <integer-array name="max_radius">
+        <item>55</item>
+        <item>45</item>
+        <item>40</item>
+        <item>35</item>
+    </integer-array>
+
+    <integer-array name="waiting_time_millis">
+        <item>2500</item>
+        <item>1000</item>
+        <item>750</item>
+        <item>750</item>
+    </integer-array>
+
+    <integer-array name="min_speed">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+
+    <integer-array name="max_speed">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+
+    <!--min and max taps value for levels: medium, hard, expert-->
+    <integer-array name="levels_min">
+        <item>8</item>
+        <item>50</item>
+        <item>90</item>
+    </integer-array>
+
+    <integer-array name="levels_max">
+        <item>15</item>
+        <item>65</item>
+        <item>105</item>
+    </integer-array>
+
+    <!-- Particles -->
+    <integer name="particles_radius">5</integer>
+    <integer name="particles_velocity">5</integer>
+    <integer name="particles_opacity">240</integer>
+</resources>

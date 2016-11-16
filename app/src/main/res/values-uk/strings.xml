@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="play">Грати</string>
+    <string name="continue_game">Продовжити</string>
+    <string name="new_game">Нова</string>
+    <string name="leaderboards">Рекорди</string>
+
+    <string name="information_format">Точність: %1$d%%\nСпіймано: %2$d</string>
+    <string name="your_score_d">Ваш рахунок: %d</string>
+    <string name="cant_connect">Проблема з підключенням.</string>
+    <string name="hint_formula">Рахунок = Тчн. × Спм. × Рвн.</string>
+
+    <string name="content_logo">Лого</string>
+    <string name="content_bubbles">Бульбашки</string>
+    <string name="exit">Вихід</string>
+    <string name="replay">Грати ще</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BubblesView">
+        <attr name="isPlayable" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RatingView">
+        <attr name="rv_num_stars" format="reference|integer"/>
+        <attr name="rv_rating" format="float"/>
+        <attr name="rv_drawable_normal" format="reference"/>
+        <attr name="rv_drawable_half" format="reference"/>
+        <attr name="rv_drawable_selected" format="reference"/>
+        <attr name="rv_star_size" format="reference|dimension"/>
+        <attr name="rv_is_indicator" format="boolean"/>
+        <attr name="rv_star_spacing" format="reference|dimension"/>
+    </declare-styleable>
+</resources>

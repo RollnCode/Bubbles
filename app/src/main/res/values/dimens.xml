@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="key_line_1_d2">8dp</dimen>
+    <dimen name="key_line_1">16dp</dimen>
+    <dimen name="key_line_2">32dp</dimen>
+
+    <dimen name="spacing">2dp</dimen>
+    <dimen name="icon_size_small">24dp</dimen>
+    <dimen name="icon_size_big">100dp</dimen>
+
+    <dimen name="text_big">18sp</dimen>
+    <dimen name="text_large">24sp</dimen>
+    <dimen name="text_huge">50sp</dimen>
+</resources>

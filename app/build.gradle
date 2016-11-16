@@ -1,0 +1,71 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+
+    compileOptions {
+        encoding "UTF-8"
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    defaultConfig {
+        applicationId "com.rollncode.bubbles"
+        applicationIdSuffix ".game"
+
+        minSdkVersion 16
+        targetSdkVersion 24
+
+        versionCode 3
+        versionName "1.2"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            versionNameSuffix new Date().format('.MMdd-HH-')
+
+            debuggable true
+        }
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            zipAlignEnabled true
+            shrinkResources true
+            minifyEnabled true
+            debuggable false
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    //noinspection GroovyAssignabilityCheck
+    configurations.all {
+        resolutionStrategy.force 'com.android.support:support-annotations:23.0.1'
+    }
+
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.1@aar') {
+        transitive = true;
+    }
+
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.google.android.gms:play-services-games:9.0.2'
+
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.1'
+}

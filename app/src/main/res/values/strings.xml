@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">Bubbles</string>
+
+    <string name="play">Play</string>
+    <string name="continue_game">Continue</string>
+    <string name="new_game">New game</string>
+    <string name="leaderboards">Leaderboards</string>
+
+    <string name="information_format">Accuracy: %1$d%%\nBusted: %2$d</string>
+    <string name="your_score_d">Your score: %d</string>
+    <string name="cant_connect">Can\'t connect. Try again.</string>
+    <string name="hint_formula">Score = Acc. × Bst. × Lvl.</string>
+
+    <string name="content_logo">Logo</string>
+    <string name="content_bubbles">Bubbles</string>
+    <string name="exit">Exit</string>
+    <string name="replay">Replay</string>
+</resources>
